@@ -16,7 +16,7 @@ Las tecnologías que forman AJAX son:
 * XMLHttpRequest, para el intercambio asíncrono de información.
 * JavaScript, para unir todas las demás tecnologías.
 
-![Tecnologías agrupadas bajo el concepto de AJAX](cap01/tecnologias.png)
+![Tecnologías agrupadas bajo el concepto de AJAX](images/cap01/tecnologias.png)
 
 Desarrollar aplicaciones AJAX requiere un conocimiento avanzado de todas y cada una de las tecnologías anteriores.
 
