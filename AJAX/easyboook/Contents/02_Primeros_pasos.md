@@ -656,7 +656,7 @@ Por último, la función `crea_query_string()` añade al final de la cadena un p
 
 En este ejemplo sencillo, el servidor simplemente devuelve el resultado de una supuesta validación de los datos enviados mediante AJAX:
 
-![Mostrando el resultado devuelto por el servidor](cap02/validar-datos.png)
+![Mostrando el resultado devuelto por el servidor](images/cap02/validar-datos.png)
 
 En las aplicaciones reales, las validaciones de datos mediante AJAX sólo se utilizan en el caso de validaciones complejas que no se pueden realizar mediante el uso de código JavaScript básico. En general, las validaciones complejas requieren el uso de bases de datos: comprobar que un nombre de usuario no esté previamente registrado, comprobar que la localidad se corresponde con el código postal indicado, validar fechas libres en un hotel, etc.
 
