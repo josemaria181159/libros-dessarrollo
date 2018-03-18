@@ -24,7 +24,7 @@ En las aplicaciones web tradicionales, las acciones del usuario en la página (p
 
 En el siguiente esquema, la imagen de la izquierda muestra el modelo tradicional de las aplicaciones web. La imagen de la derecha muestra el nuevo modelo propuesto por AJAX:
 
-![Comparación gráfica del modelo tradicional de aplicación web y del nuevo modelo propuesto por AJAX.](cap01/clasic-ajax-model.png)
+![Comparación gráfica del modelo tradicional de aplicación web y del nuevo modelo propuesto por AJAX.](images/cap01/clasic-ajax-model.png)
 
 Esta técnica tradicional para crear aplicaciones web funciona correctamente, pero no crea una buena sensación al usuario. Al realizar peticiones continuas al servidor, el usuario debe esperar a que se recargue la página con los cambios solicitados. Si la aplicación debe realizar peticiones continuas, su uso se convierte en algo molesto
 
@@ -34,7 +34,7 @@ Las aplicaciones construidas con AJAX eliminan la recarga constante de páginas 
 
 El siguiente esquema muestra la diferencia más importante entre una aplicación web tradicional y una aplicación web creada con AJAX. La imagen superior muestra la interación síncrona propia de las aplicaciones web tradicionales. La imagen inferior muestra la comunicación asíncrona de las aplicaciones creadas con AJAX.
 
-![Comparación entre las comunicaciones síncronas de las aplicaciones web tradicionales y las comunicaciones asíncronas de las aplicaciones AJAX](cap01/clasic-ajax-time.png)
+![Comparación entre las comunicaciones síncronas de las aplicaciones web tradicionales y las comunicaciones asíncronas de las aplicaciones AJAX](images/cap01/clasic-ajax-time.png)
 
 Las peticiones HTTP al servidor se sustituyen por peticiones JavaScript que se realizan al elemento encargado de AJAX. Las peticiones más simples no requieren intervención del servidor, por lo que la respuesta es inmediata. Si la interacción requiere una respuesta del servidor, la petición se realiza de forma asíncrona mediante AJAX. En este caso, la interacción del usuario tampoco se ve interrumpida por recargas de página o largas esperas por la respuesta del servidor.
 
